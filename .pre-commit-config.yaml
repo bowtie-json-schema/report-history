@@ -11,4 +11,4 @@ repos:
     rev: "v3.0.1"
     hooks:
       - id: prettier
-        exclude_types: ["markdown"]
+        files: ^.github/.*$
