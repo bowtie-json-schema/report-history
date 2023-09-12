@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Fetch latest data
         run: |-
           parallel curl -O 'https://bowtie.report/draft{}.json' ::: 3 4 6 7 2019-09 2020-12
